@@ -1,0 +1,13 @@
+
+:root{
+    --font-principal: "Constantia", serif;
+    --background: #FFFFFF;
+}
+
+body{
+    font-family: var(--font-principal)
+}
+.logo{
+    width: 120px;
+    height: auto;
+}
