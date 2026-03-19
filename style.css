@@ -17,7 +17,48 @@ li{
 a{
     text-decoration: none;
 }
-.card, .botao, i{
+.botao, i{
     color: black;
 }
-
+.card{
+    display: flex;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: black;
+    flex-direction: column;
+}
+.card h2{
+    margin: 0px;
+}
+.card p{
+    margin: 0px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.esquerda{
+    display: flex;
+    gap: 50px;
+}
+.direita{
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
