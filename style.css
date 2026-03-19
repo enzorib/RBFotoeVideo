@@ -11,3 +11,13 @@ body{
     width: 120px;
     height: auto;
 }
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.card, .botao, i{
+    color: black;
+}
+
